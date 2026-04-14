@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo-header {
+    width: 153px;
+    height: 35px;
+    margin-right: auto;
+}
+
+.nav-center {
+    margin: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list li a {
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav .button-header {
+    display: flex;
+    height: 46px;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #1C7464;
+    border: solid 3px #1C7464;
+    border-radius: 12px;
+    margin-left: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+svg {
+    margin-right: 12px;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 196px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+
+
+p {
+    text-align: center;
+    font-weight: 400;
+    line-height: 120%;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top: 3rem;
+}
+
+svg {
+    height: 20px;
+    fill: var(--primary-verde-elo, #1C7464);
+    margin-left: 10px;
+}
+
+body {
+    background: url(./img/A4\ -\ 1.png) center center;
+    height: 100vh;
+    background-color: #ffffff;
+
+}
+
+.btn {
+    padding: 16px 20px;
+    background-color: #1C7464;
+    color: #fff;
+    font-size: 20px;
+    line-height: 110%;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    border-radius: 12px;
+    margin-left: 40vw;
+    margin-top: 3rem;
+    border-style: none;
+    cursor: pointer;
+}
+
+#green-line img {
+    width: 1400px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 130px;
+}
+
+
+.voce-nao {
+    font-size: 24px;
+    line-height: 110%;
+    font-weight: 400;
+    height: 57px;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.precisa-proposta {
+    font-size: 24px;
+    line-height: 110%;
+    font-weight: 400;
+    letter-spacing: 2px;
+    width: 600px;
+    display: inline-block;
+}
+.textinho {
+    margin-top: 192px;
+    margin-bottom: 200px;
+    max-width: 1400px;
+    padding: 40px 20px;
+    margin-left: 100px;
+    gap: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: auto;
+}
