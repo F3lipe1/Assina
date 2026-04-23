@@ -1,9 +1,14 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+header {
+    max-width: 80%;
+    margin: auto;
+    border: none;
+}
 
 .logo-header {
     width: 153px;
@@ -47,20 +52,24 @@ nav .button-header {
 
 }
 
-svg {
+.key-icon {
     margin-right: 12px;
 }
 
 h1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 40px;
+    display: block;
+    margin: auto;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 100%;
-    margin-top: 196px;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
+    margin-top: 12.25rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.08px;
+    color: var(--primary-preto-acordo, #111827);
+    text-align: center;
+    font-variant-numeric: ordinal;
+    font-feature-settings: 'dlig' on;
+    font-family: Neulis;
 }
 
 
@@ -71,13 +80,6 @@ p {
     line-height: 120%;
     font-size: 24px;
     letter-spacing: 2px;
-    margin-top: 3rem;
-}
-
-svg {
-    height: 20px;
-    fill: var(--primary-verde-elo, #1C7464);
-    margin-left: 10px;
 }
 
 body {
@@ -85,6 +87,12 @@ body {
     height: 100vh;
     background-color: #ffffff;
 
+}
+
+.arrow-right {
+    height: 1rem;
+    width: 1rem;
+    margin-left: 1rem;
 }
 
 .btn {
@@ -104,8 +112,7 @@ body {
 }
 
 #green-line img {
-    width: 100%;
-    height: 200px;
+    max-width: 85%;
     display: block;
     margin: auto;
     margin-top: 130px;
@@ -203,8 +210,6 @@ body {
     margin-top: 10px;
 }
 
-.iconspl{
-margin-bottom: 200px;
-
-
+.iconspl {
+    margin-bottom: 200px;
 }
